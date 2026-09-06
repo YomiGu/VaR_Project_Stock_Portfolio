@@ -1,0 +1,14 @@
+# VaR & Backtesting Dashboard
+An offline Streamlit dashboard for portfolio VaR risk monitoring and backtesting.
+
+## 1. Install Dependencies
+Run in terminal:
+Bash
+pip install streamlit pandas matplotlib
+## 2. Run the Dashboard
+Navigate to the project root directory and run:
+Bash
+streamlit run app/app.py
+The browser will automatically open http://localhost:8501.
+
+Dynamic Visualization: Displays 1-day 99% VaR vs. Realized P&L over a 250-day rolling window.
